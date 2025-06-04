@@ -13,10 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://synera-app-frontend.vercel.app/login",
-    ],
+    origin: ["http://localhost:5173", "https://synera-app-frontend.vercel.app"],
   })
 );
 app.use(morgan("dev"));
