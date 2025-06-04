@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    // "forceConsistentCasingInFileNames": true,
+    "types": ["node"]
+  },
+  "include": [
+    "app.ts",
+    "server.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
